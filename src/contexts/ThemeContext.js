@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import React, { Component, createContext } from 'react';
 export const ThemeContext = createContext();
 
 class ThemeContextProvider extends Component {
